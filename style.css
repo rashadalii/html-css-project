@@ -1,0 +1,386 @@
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: #f8f8f8;
+   
+}
+
+
+.navbar-brand {
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.activeme {
+    color: #fff;
+}
+
+#active {
+    color: #fff;
+    }
+
+.nav-link{
+    color: rgba(255, 255, 255, 0.7);
+}
+.nav-item {
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 500;
+}
+
+.hero-wrap {
+    background-image: url(https://preview.colorlib.com/theme/knuford/images/bg_1.jpg.webp);
+    height: 100vh;
+    min-height: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+  
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+} 
+
+.ftco-navbar-light.scroll {
+    background-color: #0779e4;
+    padding: 0;
+}
+
+.subheading {
+    font-weight: 700;
+    color: #0779e4;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 4px 9px;
+    margin-top: 10em;
+}
+
+.subheading:after {
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #fff transparent transparent transparent;
+}
+
+.mb-4 {
+    
+    margin-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+marquee {
+    font-weight: 400;
+    color: #fff;
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.btn.btn-primary {
+    background: #0779e4;
+    border: 1px solid #0779e4 ;
+    color: #fff ;
+}
+
+.btn.btn-white {
+    background: #fff ;
+    border: 1px solid #fff;
+    color: #0779e4;
+}
+
+.social-media {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;}
+
+
+.social-media a {
+        color: #fff;
+        margin-right: 15px;
+    }
+
+
+.ftco-section {
+    padding: 8em 0;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.img-about {
+    background-image: url(https://preview.colorlib.com/theme/knuford/images/about.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+    width: 85%;
+    position: relative;
+}
+
+.img-about:before {
+    position: absolute;
+    bottom: 130px;
+    left: -30px;
+    width: 100%;
+    height: 100px;
+    content: '';
+    background: #f2f2f2;
+    background: #89c4fb;
+    z-index: -1;
+}
+
+.img-about:after {
+    position: absolute;
+    bottom: 30px;
+    left: -30px;
+    width: 100%;
+    height: 100px;
+    content: '';
+    background: #f2f2f2;
+    background: #57abfa;
+    z-index: -1;
+}
+
+
+.nav-tabs .nav-item {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+.nav-tabs  .nav-item .nav-link {
+    color: #0779e4;
+    border: #f8f8f8;
+    background-color: #fff;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    background: #0779e4;
+    border-radius: 4px;
+    color: #fff;
+    position: relative;
+}
+
+.nav-tabs .nav-item .nav-link.active:after {
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #0779e4 transparent transparent transparent;
+}
+.heading-section h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: black;
+}
+
+
+.heading-section h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+
+.progress-wrap {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #999999;
+}
+
+progress {
+    height: 8px;
+    overflow: visible;
+}
+
+.resume-wrap h2 {
+    font-size: 20px !important;
+    margin-bottom: 0;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+
+.resume-wrap span.date {
+    font-size: 13px;
+    font-weight: 500;
+    color: #0779e4;
+}
+
+.heading-section .subheading {
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    color: #0779e4;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.heading-section h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.services-2 {
+    width: 100%;
+    background: #fff;
+    padding: 40px;
+    margin-bottom: 0;
+    border-radius: 4px;
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.01);
+}
+
+
+.services-2 .icon {
+    width: 70px;
+    height: 60px;
+    background: #0779e4;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.icon1 {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+
+.content {
+    padding: 40px;
+}
+
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ftco-section-counter {
+    padding: 6em 0;
+    position: relative;
+    z-index: 0;
+}
+
+
+.ftco-section-counter .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .9;
+    background: #0779e4;
+    z-index: -1;
+}
+
+.section-counter .icon  {
+    font-size: 60px;
+    line-height: 1;
+    color: #fff;
+}
+
+.section-counter .text {
+        padding-left: 20px;
+}
+
+
+.section-counter .number {
+        font-size: 38px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1;
+        display: inline-block;
+        margin-bottom: 5px;
+        display: block;
+}
+
+.section-counter .caption {
+    display: block;
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.project {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 0;
+}
+
+.project .text {
+    max-width: 80%;
+    z-index: 1;
+    opacity: 0;
+}
+
+.project:hover .text, .project:focus .text {
+    opacity: 1;
+}
+.project .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: 0;
+    background: #0779e4;
+    z-index: -1;
+}
+
+.project:hover .overlay, .project:focus .overlay {
+    opacity: .9;
+}
+
+.project .text h3 a {
+    color: #fff;
+}
+
+
+.project .text span {
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1000px;
+}
